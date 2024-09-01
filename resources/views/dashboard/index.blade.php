@@ -13,20 +13,7 @@
             <!--end::Pacientes-->
         </div>
         <!--end::Col-->
-        <!--begin::Col-->
-        <div class="col-xl-4">
-            <!--begin::Consultas-->
-           @include('dashboard.partials.qtd-consultas')
-            <!--end::Consultas-->
-        </div>
-        <!--end::Col-->
-        <!--begin::Col-->
-        <div class="col-xl-4">
-            <!--begin::Agendamentos-->
-            @include('dashboard.partials.qtd-agendamentos')
-            <!--end::Agendamentos-->
-        </div>
-        <!--end::Col-->
+        
     </div>
     <!--end::Dados-->
 
